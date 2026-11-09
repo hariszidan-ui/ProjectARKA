@@ -35,3 +35,12 @@ sample_data/
 .DS_Store
 .vscode/
 .idea/
+
+# Kaggle
+kaggle.json
+.kaggle/
+input/
+working/
+output/
+*.csv.zip
+submission*.csv
