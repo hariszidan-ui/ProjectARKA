@@ -1,4 +1,37 @@
-data/
-*.zip
-kaggle.json
+# Notebook junk
 .ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Secrets (never commit these)
+.env
+*.key
+*.pem
+credentials.json
+token.json
+
+# Data and models (too big for git)
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.pt
+*.pkl
+*.zip
+
+# Colab / Drive leftovers
+drive/
+sample_data/
+.config/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
