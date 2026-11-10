@@ -1,7 +1,7 @@
-print("reading haris.py...")
-
 from pathlib import Path
 
+def hello_world():
+    print("from haris.py: hello world")
 
 def load_KAGGLE_API_TOKEN(dotenv_path = Path('./.env')) -> None:
     """[ DEPRECATED ] 
